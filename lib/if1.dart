@@ -1,7 +1,14 @@
-void testIf1(){
-  int age = 15;
+import 'dart:io';
 
-  if (age>10) {
-    print('$age>10 : True');
+void testIf1() {
+  int? age;
+
+  print('Enter your age:');
+  age = int.parse(stdin.readLineSync()!);
+
+  if (age > 18) {
+    print('$age>18 : Vote');
+  } else {
+    print('$age<18 : No Vote');
   }
 }

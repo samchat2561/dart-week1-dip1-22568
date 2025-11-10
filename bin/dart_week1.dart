@@ -1,9 +1,7 @@
-import 'package:dart_week1/if1.dart';
-import 'package:dart_week1/variable1.dart';
-import 'package:dart_week1/variable2.dart';
-
+import 'package:dart_week1/quiz1.dart';
 void main(){
-  testIf1();
-  testVar();
-  testVar2();
+  quiz1();
+  // testIf1();
+  // testVar();
+  // testVar2();
 }
